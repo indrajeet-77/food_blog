@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color:grey;
+    padding: 20px;
+    text-align: center;
+}
+
+ h1 {
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+
+  nav ul li {
+    margin-right: 10px;
+    color:#ffba08;
+   
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  nav ul li a:hover {
+    background-color:white;
+    color: #333;
+  }
+.featured-recipes {
+    padding-right: 
+}
+
+footer {
+    background-color: #F2F2F2;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+p{
+  background-color:bisque;
+  text-align: center;
+}
+ul{
+  background-color:grey;
+  text-align:justify;
+}

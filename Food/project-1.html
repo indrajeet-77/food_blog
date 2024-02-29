@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Blog</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+}
+        
+        
+        header {
+            background-color: #343a40;
+            padding: 20px;
+            
+        }
+        h1 {
+    color: white;
+    font-size: 36px;
+    text-align: center;}
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .featured-recipes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 20px;
+            max-width: 320px;
+            text-align: center;
+        }
+        
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .card h3 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        
+        .card p {
+            color: #777;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        
+        .card button {
+            background-color: #333;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .card-content button:hover {
+            background-color: #ffca2c;
+}
+        
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Food Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="project-1.html">Home</a></li>
+                <li><a href="appetizers.html">Appetizers</a></li>
+                <li><a href="salads.html">Salads</a></li>
+                <li><a href="soups.html">Soups</a></li>
+                <li><a href="main-dishes.html">Main Dishes</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="featured-recipes">
+        <h2 class="text-center">Featured Recipes</h2>
+        <div class="card">
+            <img src="../images/Biryani.jpg" alt="Recipe 1">
+            <div class="card-content">
+                <h3>Chicken Biryani</h3>
+                <p>Simply put, biryani is a spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot. It is combined in different ways with a variety of components to create a number of highly tasty and unique flavor combinations.</p>
+                <button class="btn btn-dark"><a href="recipe1(biryani).html" style="color: #fff;">View Recipe</a></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/paneer.jpg" alt="Recipe 2">
+            <div class="card-content">
+                <h3>Butter Paneer</h3>
+                <p>Butter paneer is a rich and creamy Indian dish made with paneer (Indian cottage cheese) cooked in a flavorful tomato-based gravy. It is a popular vegetarian dish and is loved for its luscious texture and aromatic spices. The dish typically involves sautéing onions, ginger-garlic paste, and spices in butter and oil, then adding tomato puree and simmering until the sauce thickens.</p>
+                <button class="btn btn-dark"><a href="recipe2(Butter-Paneer).html" style="color: #fff;">View Recipe</a></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/pancake1.jpg" alt="Recipe 3">
+            <div class="card-content">
+                <h3>Pancake</h3>
+                <p>A pancake is a breakfast dish, a flat cake that's made by pouring batter into a hot pan and frying it on both sides. Many people like to eat their pancakes with a drizzle of maple syrup.</p>
+                <button class="btn btn-dark"><a href="recipe3(pancake).html" style="color: #fff;">View Recipe</a></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/gulabj.jpg" alt="Recipe 4">
+            <div class="card-content">
+                <h3>Gulab Jamun</h3>
+                <p>Gulab jamun is a popular Indian dessert made from deep-fried dough balls soaked in a sweet, aromatic syrup. It is known for its rich and indulgent taste, with a soft and spongy texture that melts in your mouth. Gulab jamun is often enjoyed warm and garnished with nuts, making it a delightful treat for any occasion.</p>
+                <button class="btn btn-dark"><a href="recipe4(gulab-jamun).html" style="color: #fff;">View Recipe</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add more sections or content for the homepage if needed -->
+
+    <footer>
+        <p>&copy; 2023 Food Blog. All rights reserved to Indrajeet</p>
+    </footer>
+
+    <!-- Add Bootstrap JS scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
